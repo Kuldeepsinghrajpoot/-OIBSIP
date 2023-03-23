@@ -1,0 +1,312 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+  body{
+            font-family: 'Lora', serif;
+            background-color: #ECF0F1;
+            overflow-y: ;
+            }
+            .front{
+            width: 95.5rem;
+            height: auto;
+            background-color: white;
+            border:1px solid rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            left: -10px;
+            margin: -10px -20px;
+            right: 0;
+            box-shadow: 0 0px 30px 0px rgba(0,0,0,0.1);
+            }
+            .front .links{
+            width: 100%;
+            height: 140px;
+            background-color: whitesmoke;
+            }
+            .front .links h1{
+            margin: 20px 65px;
+            }
+            table{
+            border-collapse: collapse;
+            margin: -50px 65rem;
+            width: 20%;
+            }
+            table tr,td{
+            width: 50px;
+            }
+            a{
+            outline: none;
+            color: black;
+            text-decoration: none;
+            font-size: large;
+            font-weight: bold;
+            }
+            a:hover{
+            width: auto;
+            height: auto;
+            background-color: blue;
+            color: white;
+            }
+            .img{
+            height: 110px;
+            left: 60px;
+            margin: 10PX 160px;
+            width: 107px;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            filter: drop-shadow(0px 2px 4px gray);
+            }
+            .img2{
+            height: 110px;
+            position: absolute;
+            left: 60px;
+            margin: 10PX 65rem;
+            width: 107px;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            filter: drop-shadow(0px 2px 4px gray);
+            }
+            h1{
+            top: -10px;
+            left: 17rem;
+            color: 0BA5FC;
+            text-align: center;
+            position: absolute;
+            }
+            .Information{
+            width: 30rem;
+            height: 50px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: #5EC5FD;
+            margin: 50px 8rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: absolute;
+            }
+            .Information .Information_Data{
+            margin: 0px 0;
+            height: 0rem;
+            top: 10px;
+            }
+            .Information .Information_Data .Information_details {
+            height: 20rem;
+            font-size: large;
+            margin: 0px 5rem;
+            overflow: hidden;
+            position: absolute;
+            width: 30rem;
+            margin: 1px -1px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top: none;
+            background-color: white;
+            }
+            p{
+            animation: p_tag  13s infinite;
+            position: relative;
+            animation-timing-function: linear;
+            width: 100%;
+            animation-direction: reverse;
+            animation-play-state: running;
+            background-repeat: repeat-Y;
+            }
+            @keyframes p_tag{
+            0%,100%{
+            transform: translateY(-41rem);
+            }
+            100%{
+            transform: translateY(20rem);
+            }
+            }
+            @keyframes p_tag_{
+            200%{
+            top: 0px;
+            }
+            to{
+            top: 50px; 
+            }
+            }
+            .image_rotate{
+            width: 40rem;
+            height: 22.44rem;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 50px 38rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: absolute;
+            background-color: white;
+
+            }
+          
+            
+            .image_rotate  .Information_details {
+           
+          
+           
+            }
+            .image_rotate  .Information_details {
+                 width: 40rem;
+            height: 22.44rem;
+                  animation: image 20s infinite;
+                   animation-direction: alternate-reverse;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            animation-timing-function: ease-in-out;
+             background-repeat: no-repeat;
+      
+            margin: 0px 0px;
+           back
+            z-index: 1;
+            }
+            @keyframes image{
+            0%{
+            background-image: url("school/shishu-back.png");
+            }
+            20%{
+            background-image: url("school/pooja.png");
+            }
+            40%{
+            background-image: url("school/anounce.png");
+            }
+            60%{
+            background-image: url("school/teacher.png");
+            }
+            80%{
+            background-image: url("school/pooja.png");
+            }
+            100%{
+            background-image: url("school/shishu-back.png");
+            }
+            }
+            .Student-Section{
+            width: 22rem;
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: #5EC5FD;
+            margin: 27rem 8rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: absolute;
+            }
+            .Student-Section.Information_Data{
+            margin: 0px 0;
+            height: 0rem;
+            top: 10px;
+            }
+            .Student-Section .Information_Data .Information_details {
+            height: 12rem;
+            font-size: large;
+            margin: 0px 20rem;
+            overflow: hidden;
+            position: absolute;
+            width: 22rem;
+            margin: 1px -1px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top: none;
+            background-color: white;
+            }
+            .School-Section{
+            width: 22rem;
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: #5EC5FD;
+            margin: 27rem 40rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: absolute;
+            }
+            .School-Section.Information_Data{
+            margin: 0px 0;
+            height: 0rem;
+            top: 10px;
+            }
+            .School-Section .Information_Data .Information_details {
+            height: 12rem;
+            font-size: large;
+            margin: 0px -10rem;
+            overflow: hidden;
+            position: absolute;
+            width: 22rem;
+            margin: 1px -1px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top: none;
+            background-color: white;
+            }
+            .Support-Section{
+            width: 22rem;
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: #5EC5FD;
+            margin: 27rem 56rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: absolute;
+            }
+            .Support-Section.Information_Data{
+            margin: 0px 0;
+            height: 0rem;
+            top: 10px;
+            }
+            .Support-Section .Information_Data .Information_details {
+            height: 12rem;
+            font-size: large;
+            margin: 0px 30rem;
+            overflow: hidden;
+            position: absolute;
+            width: 22rem;
+            margin: 1px -1px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top: none;
+            background-color: white;
+            }
+            .School-Section{
+            width: 24rem;
+            height: 50px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: #5EC5FD;
+            margin: 27rem 31rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: absolute;
+            }
+            .School-Section.Information_Data{
+            margin: 0px 0;
+            height: 0rem;
+            top: 10px;
+            }
+            .School-Section .Information_Data .Information_details {
+            height: 12rem;
+            font-size: large;
+            margin: 0px 5rem;
+            overflow: hidden;
+            position: absolute;
+            width: 24rem;
+            margin: 1px -1px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-top: none;
+            background-color: white;
+            }
+            li {
+            text-decoration: none;
+            list-style: none;
+            outline: none;
+            text-align: left;
+            }
+            .copy_right{
+            position: absolute; 
+            margin: 43rem -10px;
+            background-color: #ff3300;
+            width: 94.45rem;
+            font-size: 30px;
+            text-align: center;
+            color: whitesmoke;
+            height: 80px;
+            font-weight: bold;
+            }
+            .copy_right .copy_right_information{
+            margin: 20px 0;
+            font-weight: bold;
+            }
